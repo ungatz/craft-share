@@ -1,0 +1,22 @@
+#+TITLE: Readme
+* About
+A social blogging community from scratch.
+Inspired by sites Dev.to and Medium, featuring...
+- 👨‍🎤 Custom Firebase usernames
+- 📰 Bot-friendly content (SEO)
+- 🦾 Advanced SSR, SSG, and ISR techniques
+- 🔥 Firestore CRUD and data modeling
+- ⚛️ Reactive forms with react-hook-form
+- 📂 Image file uploads
+- 💞 Realtime hearts
+- 🚀 Security & Deployment
+* Design Specs
+- Tech Stack: Node.js, React.js, Next.js, Firebase
+** Authentication
+- It is handled using Firebase (firebase.auth) and event handlers.
+- Firebase uses JWT for authentication.
+** Rendering
+- Some routes are client redered (like /admin) some are server rendered (like some posts) for SEO purpose.
+* Notes
+** [[org:../../Github/blogging-community/ReactNotes.org][React Notes]]
+** [[org:../../Github/blogging-community/FirebaseNotes.org][Firebase Notes]]

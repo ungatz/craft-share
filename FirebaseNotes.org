@@ -1,0 +1,8 @@
+#+TITLE: Firebase Notes
+* Database
+- Two types of NoSQL databases are provided.
+** Firestore
+- NoSQL, Document Oriented.
+- No schema, instead we have collection which have documents which have data.
+- Realtime by default.
+** Realtime Database

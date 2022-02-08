@@ -1,0 +1,25 @@
+#+TITLE: React Notes
+* Hooks
+- Low level primitives of React Framework.
+- Called at top level of Components.
+** useState()
+- Handle reactive data.
+- Update the UI according to state.
+- Returns an array of state and state setter.
+** useEffect()
+-
+** useContext()
+- Share data without using props.
+** useRef()
+- Create a mutable object to save state on re-renders.
+- Grab HTML elements from DOM.
+** useReducer()
+- Instead of updating state directly we use reducer fucntion (based on redux pattern) which decides how to compute next state.
+- Similar to setState().
+** useMemo()
+- Cache result of function calls.
+- To deal with expensive computations.
+** useImperativeHandle()
+- Change the behaviour of native DOM elements.
+** useDebugValue()
+- Make it possible to make custom labels for easy debugging of custom hooks.
