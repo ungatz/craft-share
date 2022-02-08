@@ -12,11 +12,3 @@ Inspired by sites Dev.to and Medium, featuring...
 - 🚀 Security & Deployment
 * Design Specs
 - Tech Stack: Node.js, React.js, Next.js, Firebase
-** Authentication
-- It is handled using Firebase (firebase.auth) and event handlers.
-- Firebase uses JWT for authentication.
-** Rendering
-- Some routes are client redered (like /admin) some are server rendered (like some posts) for SEO purpose.
-* Notes
-** [[org:../../Github/craft-share/ReactNotes.org][React Notes]]
-** [[org:../../Github/craft-share/FirebaseNotes.org][Firebase Notes]]
