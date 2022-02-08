@@ -18,5 +18,5 @@ Inspired by sites Dev.to and Medium, featuring...
 ** Rendering
 - Some routes are client redered (like /admin) some are server rendered (like some posts) for SEO purpose.
 * Notes
-** [[org:../../Github/blogging-community/ReactNotes.org][React Notes]]
-** [[org:../../Github/blogging-community/FirebaseNotes.org][Firebase Notes]]
+** [[org:../../Github/craft-share/ReactNotes.org][React Notes]]
+** [[org:../../Github/craft-share/FirebaseNotes.org][Firebase Notes]]
