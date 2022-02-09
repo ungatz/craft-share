@@ -1,4 +1,3 @@
-// Post slug
 export default function PostPage({}){
   return (
     <main>
