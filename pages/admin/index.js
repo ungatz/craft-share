@@ -56,7 +56,6 @@ function CreateNewPost() {
     const uid = auth.currentUser.uid;
     const ref = firestore.collection('users').doc(uid).collection('posts').doc(slug);
 
-    // Tip: give all fields a default value here
     const data = {
       title,
       slug,
